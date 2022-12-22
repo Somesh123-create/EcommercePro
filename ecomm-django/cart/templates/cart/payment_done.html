@@ -1,0 +1,29 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{%block title%}
+products home
+{%endblock%}
+{%block css%}
+{%endblock%}
+{%block content%}
+
+<section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10 ftco-animate">
+
+        {% if messages %}
+          <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Thank You!</h4>
+            {% for message in messages %}
+              <p>{{ message }}</p>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{%endblock%}
