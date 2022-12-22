@@ -156,8 +156,8 @@ LOGOUT_REDIRECT_URL = 'account:login'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'mariadoe94@gmail.com'
-EMAIL_HOST_PASSWORD = 'mitvedtgocdmwqdz'
+EMAIL_HOST_USER = 'xyz@gmail.com'
+EMAIL_HOST_PASSWORD = '12345www'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'CodingWithSomesh Team <noreply@mysocialclone.com>'
